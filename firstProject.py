@@ -8,7 +8,6 @@ print("Scissors...")
 randomNumber = random.randint(0,2)
 ComputerMove = "Rock"
 
-
 if randomNumber == 0:
     ComputerMove = "Rock"
 elif randomNumber == 1:
@@ -57,6 +56,7 @@ while Player1_Wins < WininigScre and Player2_Wins < WininigScre :
         elif Player_2 == "Rock":
             print("Player_2 Wins!...")
             Player2_Wins +=1
+            
     else:
         print("Somthing went wrong")
 print(f"Player1 final score : {Player1_Wins} and Player2 final score : {Player2_Wins}")
